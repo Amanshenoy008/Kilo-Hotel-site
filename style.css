@@ -41,7 +41,7 @@ nav {
 
 li {
   font-size: 25px;
-  margin: 80px;
+  margin: 60px;
 }
 
 li:hover {
@@ -78,4 +78,8 @@ a {
 .amenities button {
   border-radius: 40px;
   cursor: pointer;
+}
+
+.logo:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

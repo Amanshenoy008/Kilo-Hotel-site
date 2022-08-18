@@ -47,7 +47,8 @@ nav
 li
 {
     font-size: 25px;
-    margin:80px;
+    margin:60px;
+
     
 
 
@@ -90,4 +91,9 @@ a
     border-radius:40px;
     cursor:pointer;
     
+}
+.logo:hover{
+text-decoration: underline;
+
+
 }
