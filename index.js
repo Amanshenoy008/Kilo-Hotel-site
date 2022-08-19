@@ -22,3 +22,8 @@ function contac()
     document.getElementById('p2').innerHTML='<span class="material-symbols-outlined">contact_phone</span> : +91 9999999999 ';
     document.getElementById('p3').style.display='block';
 }
+
+function chngcolor(x)
+{
+    document.getElementById(x).style.color='White';
+}

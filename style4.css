@@ -5,12 +5,17 @@
     height:60vh;
     padding:50px;
     border-radius: 35px;
-    background-color: ;
+    margin-left:90px;
+    position:absolute;
+    top:420vh;
+    background-color: wheat;
 
 }
 .gmap
 {
     float:right;
+    margin-top:100px;
+    margin-right:100px;
 }
 #tab
 {
@@ -40,4 +45,10 @@
 .d p
 {
     margin-top:40px;
+}
+.c4
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjInq_oY3UhFCrbD_giCrFv1QIThAcSFeVgQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

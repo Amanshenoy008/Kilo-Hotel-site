@@ -12,7 +12,13 @@
 li
 {
     display:inline;
+
     
+}
+li:hover
+{
+    border-bottom:3px solid red;
+    transition:border-bottom 0.3s;
 }
 #hole1, #hole2, #hole3
 {
@@ -96,4 +102,21 @@ a
 text-decoration: underline;
 
 
+}
+ .wh:hover
+{
+    color:hotpink;
+    opacity:0.9;
+    cursor: pointer;
+}
+.btn1
+{
+    margin-top:20px;
+    padding:15px;
+    font-size:20px;
+    transition: margin-top 1s;
+}
+.btn1:hover
+{
+     margin-top:-0.1px;    
 }
