@@ -1,0 +1,30 @@
+.c2
+{
+    background-image: url('https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.f1,.f2,.f3
+{
+    display:flex;
+
+
+}
+.i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9
+{
+    margin-left:33vh;
+    
+
+}
+.c2 img
+{
+    border-radius: 50%;
+}
+.c2 button
+{
+    margin-left:-3px;
+    padding:2px;
+    border-radius: 50%;
+    border:0;
+}
