@@ -7,6 +7,8 @@ function review1()
     document.getElementById('p3').style.display='none';
     
 }
+    
+}
 function submit()
 {
     document.getElementById('p1').style.display='none';
