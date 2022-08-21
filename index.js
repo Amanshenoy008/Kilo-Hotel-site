@@ -8,7 +8,6 @@ function review1()
     
 }
     
-}
 function submit()
 {
     document.getElementById('p1').style.display='none';
@@ -28,4 +27,10 @@ function contac()
 function chngcolor(x)
 {
     document.getElementById(x).style.color='White';
+}
+
+function goto()
+{
+   window.location='#book';
+   
 }

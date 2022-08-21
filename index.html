@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="style4.css">
     <link rel="stylesheet" href="style5.css">
     <script src="index.js"></script>
+    <script src="addtocart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -44,7 +45,7 @@
                 <p class="wh">  Banquet Hall</p>
                 <p class="wh">  Swimming Pool</p>
                 <p class="wh">  Auditorium</p>
-                <p> <button class="btn1" style="font-weight: 300;">Book Room</button></p>
+                <p> <button class="btn1" style="font-weight: 300;" onclick="goto()">Book Room</button></p>
             </div>
            
             <p class="welcome">
@@ -61,17 +62,17 @@
                 <div class="i1">
                     <img src="https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="190px" height="150px"><br>
                     <p>name: Paratha panner </p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add1()">Add</button><input id="value1" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue1"></span>
                 </div>
                 <div class="i2">
                     <img src="https://media.istockphoto.com/id/889609260/photo/indian-feast-with-butter-chicken-chicken-tandoori-lamb-curry-vegetable-curry-samosas-pakoras.webp?s=612x612&w=is&k=20&c=Oxf7o3UrVo9p68LH1cN7eg6z6ptSGL8Rtugc-J55T_M=" width="190px" height="150px"><br>
                     <p>Name: Butter chicken </p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add2()"> Add</button><input id="value2" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue2"></span>
                 </div>
                 <div class="i3">
                     <img src="https://i.pinimg.com/originals/22/0e/2c/220e2cb270e24151c2b3e2f55d999d5b.jpg" width="190px" height="150px"><br>
                     <p>Name: North indian thali</p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add3()"> Add</button><input id="value3" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue3"></span>
                 </div>
 
             </div>
@@ -81,19 +82,19 @@
                 <div class="i4">
                     <img src="https://c.ndtvimg.com/2021-11/i6ilk74g_lauki-dosa_625x300_24_November_21.jpg" width="190px" height="150px"><br>
                     <p>Name: Masala dosa</p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add4()"> Add</button><input id="value4" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue4"></span>
                 </div>
 
                 <div class="i5">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROYgmZOYjLP0FP7WtPanaOlBeVGPIIMzdlng&usqp=CAU" width="190px" height="150px"><br>
                     <p>Name: Idli vada </p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add5()">Add</button><input id="value5" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue5"></span>
                 </div>
 
                 <div class="i6">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXvJYPDArFf630mLMFJjibkmmBUPBoXM7NcA&usqp=CAU" width="190px" height="150px"><br>
                     <p>Name: South indian thali</p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1"></p>
+                    <p><button onclick="add6()">Add</button><input id="value6" type="range"  min="0" max="10" value="0"></p><span id="outputvalue6"></span>
                 </div>
 
             </div>
@@ -102,34 +103,25 @@
                 <div class="i7">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMd306qgUukro9YvrmLp0vppjAevwHTEQOw&usqp=CAU" width="190px" height="150px"><br>
                     <p>Name: Marinated viel </p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add7()">Add</button><input id="value7" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue7"></span>
                 </div>
 
                 <div class="i8">
                     <img src="https://i.pinimg.com/originals/06/35/87/06358702326e7dddcf1cf431fa8df474.jpg" width="190px" height="150px"><br>
                     <p>Name: Haggis Ecossais</p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add8()"> Add</button><input id="value8" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue8"></span>
                 </div>
 
                 <div class="i9">
                     <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/12/18/0/FNK_Giant-Chocolate-PB-Cookie-Cake-h1_s4x3.jpg.rend.hgtvcom.441.294.suffix/1513598524116.jpeg" width="190px" height="150px"><br>
                     <p>Name: Chocolate pancake </p>
-                    <p><button type=""><img src=""> Add</button><input id="value" type="range"  min="1" max="10" value="1" ></p>
+                    <p><button onclick="add9()"> Add</button><input id="value9" type="range"  min="0" max="10" value="0" ></p><span id="outputvalue9"></span>
                 </div>
 
             </div>
 
         </div>
-        <!-- Book hotel room -->
-        <div class="c5">
-            <div class="details1">
-                xyz placeholder....
-            </div>
         
-
-
-
-        </div>
 
          <!-- Cart section-->
         <div class="c3" id="cart">
@@ -137,34 +129,50 @@
 
             
             <p style="text-align:center; font-size:35px; text-decoration: underline;"> Your added food : </p>
-            <table>
-                <tr>
-                    <th> N.o.</th>
-                    <th> Item</th>
-                    <th> Quantity</th>
-                    <th> Price</th>
-                </tr>
-                <tr>
-                    <td id="n.o."></td>
-                    <td id="food1"></td>
-                    <td id="price1"></td>
-                </tr>
-                <tr>
-                    <td id="n.o.2"></td>
-                    <td id="food2"></td>
-                    <td id="price2"></td>
-                </tr>
-                <tr>
-                    <td id="n.o.3"></td>
-                    <td id="food3"></td>
-                    <td id="price3"></td>
-                </tr>
-                <tr>
-                    <td ></td>
-                    <td ></td>
-                    <td id="finalprice"></td>
-                </tr>
-            </table>
+            <div class="addtocart">
+                <div class="head">
+                <div class="num">N.o.
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                </div>
+                <div class="item">Items
+                <p> Paratha.paneer</p>
+                <p> Butter.chicken</p>
+                <p> North.indian.thali</p>
+                <p> Masala.dosa</p>
+                <p> Idli.vada</p>
+                <p> South.indian.thali</p>
+                <p> Marinated.viel</p>
+                <p> Haggis.Ecossais</p>
+                <p> Chocolate.pancake</p>
+                </div>
+                <div class="quantity">Quantity
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+
+                </div>
+                <div class="price"> Price
+
+                </div>
+                </div>
+               
+            </div>
+            <div class="totalprice">TOTAL PRICE:<span id="totalprice"></span></div>
+
             </div>
 
         </div>

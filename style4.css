@@ -2,12 +2,12 @@
 {
     border:1px solid red;
     width:35%;
-    height:60vh;
+    height:50vh;
     padding:50px;
     border-radius: 35px;
     margin-left:90px;
     position:absolute;
-    top:420vh;
+    top:320vh;
     background-color: wheat;
 
 }
@@ -37,10 +37,11 @@
 .d
 {
     border:1px solid red;
-    margin-top:100px;
     height:30vh;
     text-align: center;
     background-color: whitesmoke;
+    margin-top:66px;
+    
 }
 .d p
 {
@@ -52,3 +53,4 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+

@@ -1,6 +1,6 @@
 .cartbox
 {
-    border:1px solid red;
+    
     width:40%;
     height:90vh;
     margin-left:60vh;
@@ -11,6 +11,18 @@
 .c3
 {
     background-image: url('https://graphicdesignjunction.com/wp-content/uploads/2014/05/001+background+pattern+designs.jpg');
+    margin-top:-19px;
+}
+.head 
+{
+    display:flex;
+    
+}
+.head > *
+{
+    margin-right:10vh;
+    padding-top:20vh;
+    font-size: 30px;
 }
 
     
