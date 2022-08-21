@@ -11,7 +11,7 @@
 .c3
 {
     background-image: url('https://graphicdesignjunction.com/wp-content/uploads/2014/05/001+background+pattern+designs.jpg');
-    margin-top:-19px;
+    border:1px solid black;
 }
 .head 
 {
@@ -25,4 +25,18 @@
     font-size: 30px;
 }
 
-    
+.totalprice
+{
+    float:right;
+    margin-top:30px;
+    font-size:50px;
+    text-decoration:overline underline;
+}
+.btnp
+{
+    width:100px;
+    height:50px;
+    position:relative;
+    top:-14px;
+    font-size: 20px;
+}

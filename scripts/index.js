@@ -24,13 +24,4 @@ function contac()
     document.getElementById('p3').style.display='block';
 }
 
-function chngcolor(x)
-{
-    document.getElementById(x).style.color='White';
-}
 
-function goto()
-{
-   window.location='#book';
-   
-}
