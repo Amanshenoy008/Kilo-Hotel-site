@@ -24,4 +24,7 @@ function contac()
     document.getElementById('p3').style.display='block';
 }
 
-
+function goto()
+{
+    location.href="#contact";
+}

@@ -1,6 +1,6 @@
 .box
 {
-    border:1px solid red;
+    
     width:35%;
     height:50vh;
     padding:50px;
@@ -36,16 +36,18 @@
 }
 .d
 {
-    border:1px solid red;
+    
     height:30vh;
     text-align: center;
     background-color: whitesmoke;
     margin-top:66px;
+    border-radius:20px;
     
 }
 .d p
 {
     margin-top:40px;
+    padding:10px;
 }
 .c4
 {

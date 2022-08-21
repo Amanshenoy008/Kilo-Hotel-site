@@ -7,8 +7,8 @@
     <title>My Hotel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/style2.css">
     <link rel="stylesheet" href="/stylesheets/style3.css">
@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="/stylesheets/style5.css">
     <script src="/scripts/index.js"></script>
     <script src="/scripts/addtocart.js"></script>
+    <script src="/scripts/form.js"></script>
 </head>
 <body>
     <div class="container">
-           <!-- About section -->
+           <!-- ===========About section =========== -->
            <div class="nav">
             <nav>
                 <ul>
@@ -33,19 +34,38 @@
                     <li> <a href="#cart" >Cart</a>
                          
                     </li>
-                    <li> <a href="#contact" >Contact </a>
+                    <li> <a href="#contact" >Contact US</a>
                     </li>
                 </ul>
             </nav>
+            <button class="open-button"   onclick="openForm()">LOGIN DETAILS</button>
+            <button id="rs" >Registered successfully</button>
+            <div class="form-popup" id="myForm">
+               <form  class="form-container">
+               <h1>Login</h1>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+               <label for="psw"><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <label for="address"><b>address</b></label>
+                <input type="text" placeholder="Enter address" name="address" style="height:20px;" required>
+
+              <button onclick="logn()" type="button"class="btn">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+             </form>
+            </div>
             <div class="amenities">
                 <p class="wh" style="color:hotpink;font-weight:300;" > We offer: </p>
                 <p class="wh">  Restaurant service</p>
-                <p class="wh">  Lounge Bar </p>
-                <p class="wh">  Gym</p>
-                <p class="wh">  Banquet Hall</p>
-                <p class="wh">  Swimming Pool</p>
-                <p class="wh">  Auditorium</p>
-                <p> <button class="btn1" style="font-weight: 300;" onclick="goto()">Book Room</button></p>
+                <p class="wh">  Lounge Bar    </p>
+                <p class="wh">  Gym           </p>
+                <p class="wh">  Banquet Hall  </p>
+                <p class="wh">  Swimming Pool </p>
+                <p class="wh">  Auditorium    </p>
+                <p> <button class="btn1" style="font-weight: 300;" onclick="goto()">Our location</button></p>
             </div>
            
             <p class="welcome">
@@ -55,9 +75,9 @@
             </p>
 
         </div>
-           <!-- Order food -->
+           <!-- ==============Order food  ==============-->
         <div class="c2" id="order">
-            <p style="text-align:center; font-size:30px ; "> North Indian food </p>
+            <p style="text-align:center; font-size:30px ; font-weight: 800; "> North Indian food </p>
             <div class="f1">
                 <div class="i1">
                     <img src="https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="190px" height="150px"><br>
@@ -77,7 +97,7 @@
 
             </div>
 
-            <p style="text-align:center; font-size:30px ; "> South Indian food </p>
+            <p style="text-align:center; font-size:30px ;font-weight: 800; "> South Indian food </p>
             <div class="f2">
                 <div class="i4">
                     <img src="https://c.ndtvimg.com/2021-11/i6ilk74g_lauki-dosa_625x300_24_November_21.jpg" width="190px" height="150px"><br>
@@ -98,7 +118,7 @@
                 </div>
 
             </div>
-            <p style="text-align:center;font-size:30px ;"> Our <span>special</span> food</p>
+            <p style="text-align:center;font-size:30px ; font-weight: 800;"> Our <span>special</span> food</p>
             <div class="f3">
                 <div class="i7">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMd306qgUukro9YvrmLp0vppjAevwHTEQOw&usqp=CAU" width="190px" height="150px"><br>
@@ -123,7 +143,7 @@
         </div>
         
 
-         <!-- Cart section-->
+         <!-- ===================Cart section================-->
         <div class="c3" id="cart">
             <div class="cartbox">
 
@@ -183,20 +203,21 @@
             </div>
 
         </div>
-            <!-- contact  section   -->
+            <!-- ============== contact  section ==================  -->
         <div class="c4" id="contact">
             <div class="box">
-                <p id="tab" style="text-align: center;" onclick="contac()"> Contact us </p>
-                <p id="review" onclick="review1()" style="text-align:center;padding-top:20px;">Review </p>
+                <p id="tab" style="text-align: center;" onclick="contac()"> Contact us: </p>
+                <p id="review" onclick="review1()" style="text-align:center;padding-top:20px;">Review: </p>
                 
                 <div class="d">
+                
                     <p id="p1"><span class="material-symbols-outlined">mail</span> : mail@gmail.com </p>
                     <p id="p2"><span class="material-symbols-outlined">contact_phone</span> : +91 9999999999 </p>
                     <p id="p3"><span class="material-symbols-outlined">location_on</span> : xyz street , place</p>
                 </div>
             </div>
             <div class="gmap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.3266226610558!2d117.7164366163878!3d-68.66885848583539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf43db9dfa3bde374!2zNjjCsDQwJzA3LjkiUyAxMTfCsDQzJzA3LjEiRQ!5e0!3m2!1sen!2sin!4v1660828983286!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.294653446116!2d75.16989751460227!3d12.091969491437222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ce9ba6fb119cf45!2zMTLCsDA1JzMxLjEiTiA3NcKwMTAnMTkuNSJF!5e0!3m2!1sen!2sin!4v1661065399073!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>
